@@ -59,8 +59,6 @@
         <activity android:name=".PresentShow" />
         <activity android:name=".PresentGame" />
         <activity android:name=".CleanActivity" />
-        <activity android:name=".GameRuleActivity" />
-        <activity android:name=".Main2Activity"></activity>
     </application>
 
 </manifest>

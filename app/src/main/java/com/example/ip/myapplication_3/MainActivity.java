@@ -11,7 +11,9 @@ import android.widget.Button;
 import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
-    private static MediaPlayer mp;
+    //
+    //
+    // private static MediaPlayer mp;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -19,9 +21,9 @@ public class MainActivity extends AppCompatActivity {
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
         supportRequestWindowFeature(Window.FEATURE_ACTION_BAR_OVERLAY);
         setContentView(R.layout.activity_main);
-        mp=MediaPlayer.create(this,R.raw.snacktime);
-        mp.setLooping(true);
-        mp.start();
+       // mp=MediaPlayer.create(this,R.raw.snacktime);
+        //mp.setLooping(true);
+       // mp.start();
 
         Button but_1 = (Button)findViewById(R.id.but1);
         but_1.setOnClickListener(new View.OnClickListener() {
