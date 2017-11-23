@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/present_background"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/present_q"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/candy"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="21dp"
+            android:text="0"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/box"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:id="@+id/reds"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/blues"
+            android:layout_marginEnd="11dp"
+            android:layout_marginRight="11dp"
+            android:src="@drawable/reds" />
+
+        <ImageView
+            android:id="@+id/blues"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignTop="@+id/darkc"
+            android:layout_toEndOf="@+id/darkc"
+            android:layout_toRightOf="@+id/darkc"
+            android:src="@drawable/blues" />
+
+        <ImageView
+            android:id="@+id/ball"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignTop="@+id/blues"
+            android:layout_marginLeft="12dp"
+            android:layout_marginStart="12dp"
+            android:layout_toEndOf="@+id/blues"
+            android:layout_toRightOf="@+id/blues"
+            android:src="@drawable/ball" />
+
+        <ImageView
+            android:id="@+id/blue"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_above="@+id/darkc"
+            android:layout_alignLeft="@+id/darkc"
+            android:layout_alignStart="@+id/darkc"
+            android:src="@drawable/blue" />
+
+        <ImageView
+            android:id="@+id/orange"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignTop="@+id/blue"
+            android:layout_toEndOf="@+id/blue"
+            android:layout_toRightOf="@+id/blue"
+            android:src="@drawable/orange" />
+
+        <ImageView
+            android:id="@+id/darkc"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="17dp"
+            android:layout_marginLeft="27dp"
+            android:layout_marginStart="27dp"
+            android:src="@drawable/darkc" />
+
+        <ImageView
+            android:id="@+id/whitec"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_above="@+id/ball"
+            android:layout_alignLeft="@+id/ball"
+            android:layout_alignStart="@+id/ball"
+            android:src="@drawable/whitec" />
+
+        <ImageView
+            android:id="@+id/candy"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_above="@+id/reds"
+            android:layout_alignLeft="@+id/reds"
+            android:layout_alignStart="@+id/reds"
+            android:src="@drawable/candy" />
+
+    </RelativeLayout>
+
+</LinearLayout>

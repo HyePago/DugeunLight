@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.ip.myapplication_3">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/titmeicon"
+        android:label="두근라이트"
+        android:hardwareAccelerated="false"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+        <meta-data
+            android:name="kr.co.selphone.library.glide.SelphoneGlideModule"
+            android:value="GlideModule" />
+
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Ending" />
+        <activity android:name=".Ending2" />
+        <activity android:name=".Ending3" />
+        <activity android:name=".LastPropose" />
+        <activity android:name=".LastProposeGame" />
+        <activity android:name=".StartWebtoon1Activity" />
+        <activity android:name=".StartWebtoon2Activity" />
+        <activity android:name=".StartWebtoon3Activity" />
+        <activity android:name=".ClockAcitivity" />
+        <activity android:name=".ClockDialogAcitivity" />
+        <activity android:name=".ClockGameActivity" />
+        <activity android:name=".ClockSuccessActivity" />
+        <activity android:name=".ClockGameDialogAcitivity" />
+        <activity android:name=".ShowerActivity" />
+        <activity android:name=".ShowerGameActivity" />
+        <activity android:name=".ShowerDialogActivity" />
+        <activity android:name=".ShowerGameDialogAcitivity" />
+        <activity android:name=".ClothesActivity" />
+        <activity android:name=".ClothesDialogActivity" />
+        <activity android:name=".ClothesGameActivity" />
+        <activity android:name=".ClothesGameDialogAcitivity" />
+        <activity android:name=".Bus_Stop_Activity" />
+        <activity android:name=".Lunch_Activity" />
+        <activity android:name=".TimeTable_Activity" />
+        <activity android:name=".LunchShow" />
+        <activity android:name=".PresentShow" />
+        <activity android:name=".PresentGame" />
+        <activity android:name=".CleanActivity" />
+        <activity android:name=".GameRuleActivity" />
+        <activity android:name=".Main2Activity"></activity>
+    </application>
+
+</manifest>

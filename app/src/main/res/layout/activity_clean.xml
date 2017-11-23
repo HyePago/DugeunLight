@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/clean_background"
+    tools:context="com.example.ip.myapplication_3.CleanActivity">
+
+    <ImageView
+        android:src="@drawable/clean_q"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:src="@drawable/water"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:src="@drawable/slide_bar3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageView" />
+
+    <ImageView
+        android:src="@drawable/dust"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/dust"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView"
+        android:layout_marginTop="13dp" />
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STOP"
+        android:layout_below="@+id/dust"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp" />
+
+</RelativeLayout>
