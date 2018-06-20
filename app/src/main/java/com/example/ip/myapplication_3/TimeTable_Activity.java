@@ -134,7 +134,7 @@ public class TimeTable_Activity extends AppCompatActivity {
                 time.setText("" + val);
                 handler.sendEmptyMessageDelayed(0, 1000);
 
-                if (val == 15) {
+                if (val == 20) {
                     //if(num!=1) {
                         Intent intent = new Intent(TimeTable_Activity.this, MainActivity.class);
                         handler.removeMessages(0);

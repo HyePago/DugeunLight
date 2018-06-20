@@ -42,7 +42,7 @@ public class PresentGame extends AppCompatActivity {
                 val++;
                 time.setText(""+val);
 
-                if(val == 20){
+                if(val == 17){
                     handler.removeMessages(0);
                     intent = new Intent(PresentGame.this, MainActivity.class); //처음 화면
                     intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);

@@ -15,10 +15,11 @@
     <Button
         android:id="@+id/setalarm"
         android:layout_width="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
         android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
         android:layout_gravity="right"
+        android:layout_marginBottom="179dp"
         android:text="click" />
 
     <TextView

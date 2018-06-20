@@ -44,7 +44,7 @@ public class ClothesGameActivity extends AppCompatActivity {
                 val++;
                 time.setText(""+val);
 
-                if(val == 10){
+                if(val == 20){
                     handler.removeMessages(0);
                     intent = new Intent(ClothesGameActivity.this, MainActivity.class);
                     intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);

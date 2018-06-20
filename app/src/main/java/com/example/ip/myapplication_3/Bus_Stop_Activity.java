@@ -105,7 +105,7 @@ public class Bus_Stop_Activity extends AppCompatActivity {
                 time.setText("" + val);
                 handler.sendEmptyMessageDelayed(0, 1000);
 
-                if (val == 10) {
+                if (val == 20) {
                     if(num!=1) {
                         Intent intent = new Intent(Bus_Stop_Activity.this, MainActivity.class);
                         handler.removeMessages(0);

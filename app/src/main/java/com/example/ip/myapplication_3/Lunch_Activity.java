@@ -346,7 +346,7 @@ public class Lunch_Activity extends AppCompatActivity {
                 time.setText("" + val);
                 handler.sendEmptyMessageDelayed(0, 1000);
 
-                if (val == 15) {
+                if (val == 19) {
                     Intent intent = new Intent(Lunch_Activity.this, MainActivity.class);
                     handler.removeMessages(0);
                     startActivity(intent);
