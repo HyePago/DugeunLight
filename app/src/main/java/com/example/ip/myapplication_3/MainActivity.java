@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-/*
+
         Button but_2 = (Button)findViewById(R.id.but2);
         but_2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
@@ -40,7 +40,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-*/
     }
 
 }
