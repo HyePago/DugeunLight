@@ -10,28 +10,39 @@
         android:id="@+id/timePicker"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1" />
-
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_weight="1"
+        android:headerBackground="@color/clock_background"
+        android:numbersBackgroundColor="@color/colorPrimaryDark"/>
+<!--
     <Button
         android:id="@+id/setalarm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_gravity="right"
-        android:layout_marginBottom="179dp"
-        android:text="click" />
+        android:layout_marginTop="86dp"
+        android:text="click" />-->
+
+    <ImageView
+        android:id="@+id/setalarm"
+        android:layout_width="80dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="74dp"
+        android:src="@drawable/boot" />
 
     <TextView
         android:id="@+id/time"
-        android:layout_alignRight="@id/setalarm"
-        android:layout_above="@id/setalarm"
-        android:layout_marginBottom="25dp"
-        android:text="0"
-        android:layout_marginRight="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="40dp"/>
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:text="0"
+        android:textSize="40dp" />
 
     <ImageView
         android:id="@+id/stop"

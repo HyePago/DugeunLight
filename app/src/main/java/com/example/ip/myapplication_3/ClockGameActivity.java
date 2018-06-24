@@ -23,7 +23,7 @@ public class ClockGameActivity extends AppCompatActivity {
     AlarmManager alarm_manager;
     TimePicker alarm_timepicker;
     ImageView stop;
-    Button setalarm;
+    ImageView setalarm;
     Handler handler;
 
 
@@ -74,7 +74,7 @@ public class ClockGameActivity extends AppCompatActivity {
             }
         });
 
-        setalarm = (Button)findViewById(R.id.setalarm);
+        setalarm = (ImageView) findViewById(R.id.setalarm);
         setalarm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
